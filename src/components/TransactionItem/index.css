@@ -1,0 +1,33 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid #7e858e;
+  padding: 2px;
+  min-width: 250px;
+
+  margin-left: 0px;
+}
+.transaction-item {
+  color: #d7dfe9;
+  margin-right: 60px;
+
+  font-size: 16px;
+  align-self: flex-start;
+  color: grey;
+  margin-left: 20px;
+  height: 20px;
+}
+.delete-img {
+  height: 20px;
+  background-color: transparent;
+}
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+  align-self: center;
+}
